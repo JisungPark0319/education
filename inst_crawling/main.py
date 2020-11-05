@@ -111,7 +111,7 @@ insta_url = insta_searching(keyword)
 
 web_driver = webdriver.Chrome(web_driver_file)
 insta_web_start(web_driver, insta_url)
-login_process(web_driver, 'wltjd9870@naver.com', 'djzntmxlr6341')
+login_process(web_driver, 'id', 'password')
 
 bulletin_df = pd.DataFrame(
             columns=['content', 'date', 'like_kind', 'like', 'place', 'tags'])
